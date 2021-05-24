@@ -29,18 +29,18 @@
           super(props)
           this.state = {
             moods: ["😃", "😴", "😍", "🥺", "😡", "🤓", "🤪"],
-            currentMood: ""
+            currentMood: " "
           }
         }
-
+         //moods needed to be defined by this.state
         handleMoodOptions = () => {
           let randomIndex = Math.floor(Math.random() * this.state.moods.length )
-          this.setState({ currentMood: moods[randomIndex] })
+          this.setState({ currentMood: this.state.moods[randomIndex] })
         }
 
         render(){
           return(
-
+          <>
               <h1>Welcome to the Mood Meter App</h1>
 
               <h3>Mood Options:</h3>
@@ -48,12 +48,12 @@
               <div style={{ fontSize: "40px", height: "50px"}}>
                 { this.state.currentMood }
               </div>
-
-              <button onClick={ handleMoodOptions }>
+                
+              <button onClick={ this.handleMoodOptions }>
                 Click Here For Next Mood option
               </button>
-
-          )
+</>//handleMoodOptions needed to be defined from within the class using this. notation
+          )//jsx was not proeperly notated
         }
       }
 

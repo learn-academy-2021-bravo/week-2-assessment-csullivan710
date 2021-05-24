@@ -8,49 +8,49 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. The built in method .map() takes predefined parameters. What are they? Which are required and which are optional?
 
-  Your answer:
+  Your answer:It takes the index, the value and the array itself
 
-  Researched answer:
+  Researched answer:the map() method creates an array by calling a specific function on each element present in the parent array.
 
 
 
 2. What is object destructuring?
 
-  Your answer:
+  Your answer:Making a shortcut for yourself if an object is nested
 
-  Researched answer:
+  Researched answer:Makes it possible to unpack values from arrays, or properties from objects into distinct variables
 
 
 
 3. Why would you use the method super()?
 
-  Your answer:
+  Your answer:Let a child call on a parent
 
-  Researched answer:
+  Researched answer:It is used to call the constructor of the parent class to access the parents properties and methods
 
 
 
 4. What is a React Fragment? Why would you use one?
 
-  Your answer:
+  Your answer:It lets you create multiple children of the parent class. You would use it to make a list or mutiple 
 
-  Researched answer:
+  Researched answer:Lets you group of a list of children without adding extra node to the DOM. Cleaner code
 
 
 
 5. What is JSX?
 
-  Your answer:
+  Your answer:Let us write HTML in react
 
-  Researched answer:
+  Researched answer:JSX stands for Javascript XML. JSX makes it easier to write and add HTML in React
 
 
 
 6. STRETCH: What is hoisting in JavaScript?
 
-  Your answer:
+  Your answer:Function and variable decclarations are moved to the top of your code
 
-  Researched answer:
+  Researched answer:It puts variables and declarations into memory when it is compiling but stay exactly where they are
 
 
 
@@ -58,8 +58,8 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 Research and define the following terms to the best of your ability.
 
-1. React props:
-2. React lifecycle methods:
-3. Logic/smart component:
-4. Display/dumb component:
-5. DOM Events:
+1. React props:Properties in React, being used for passing data from one component to another
+2. React lifecycle methods:Events from the creation to the end of component
+3. Logic/smart component:App level components that perform functions and manage data
+4. Display/dumb component:Focus completely on UI
+5. DOM Events:Allows Javascript to register different event handler on elemetns in an HTML document
